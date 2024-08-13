@@ -1,4 +1,4 @@
-<style >
+<style>
         .div1 h1p{
             background-color:blueviolet;
         }
@@ -20,14 +20,14 @@
         {
             margin:5px;
         }
-       <!-- .active{
+        .active{
             background-color: 
             #a8c7fa;
             display: flex;
             height:25vh;
             width: 25%;
             border: 1px solid#000;
-        }-->
+        }
         .content{
             height: 25vh;
             display: flex;
