@@ -1,0 +1,38 @@
+<style >
+        .div1 h1p{
+            background-color:blueviolet;
+        }
+        .div2{
+            color:red;
+        }
+        .s1{
+            text-decoration: solid;
+        }
+        h2 {
+            text-align: center;
+        }
+        .menu{
+            display:flex;
+            flex-direction:column;
+            list-style:none;
+        }
+        .menu li
+        {
+            margin:5px;
+        }
+        .active{
+            background-color: 
+            #a8c7fa;
+            display: flex;
+            height:25vh;
+            width: 25%;
+            border: 1px solid#000;
+        }
+        .content{
+            height: 25vh;
+            display: flex;
+            width: 15%;
+        }
+       
+        }
+    </style>
