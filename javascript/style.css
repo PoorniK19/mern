@@ -13,26 +13,25 @@
         }
         .menu{
             display:flex;
-            flex-direction:column;
+            flex-direction:row;
             list-style:none;
         }
         .menu li
         {
             margin:5px;
         }
-        .active{
+       <!-- .active{
             background-color: 
             #a8c7fa;
             display: flex;
             height:25vh;
             width: 25%;
             border: 1px solid#000;
-        }
+        }-->
         .content{
             height: 25vh;
             display: flex;
             width: 15%;
         }
        
-        }
     </style>
