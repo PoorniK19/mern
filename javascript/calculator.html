@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <input type="number" id="n1"/><br><br>
+    <input type="number" id="n2"/><br><br>
+    <button onclick="add()">Addition</button>
+    <button onclick="sub()">Subtract</button>
+    <button onclick="mul()">Multiply</button>
+    <input type="text" id="result"/>
+</body>
+<script>
+    function add()
+    {
+        var val1=Number(document.getElementById("n1").value);
+        var val2=Number(document.getElementById("n2").value);
+        var add=val1+val2;
+        document.getElementById("result").value=add
+    }
+
+    function sub()
+    {
+        var val1=Number(document.getElementById("n1").value);
+        var val2=Number(document.getElementById("n2").value);
+        var sub=val1-val2;
+        document.getElementById("result").value=sub
+    }
+
+    function mul()
+    {
+        var val1=Number(document.getElementById("n1").value);
+        var val2=Number(document.getElementById("n2").value);
+        var mul=val1*val2;
+        document.getElementById("result").value=mul
+    }
+
+
+</script>
+</html>
